@@ -1,0 +1,143 @@
+/*Links a las fuentes*/
+/*La Belle Aurore*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=La+Belle+Aurore&family=Poppins:wght@200;300;400&display=swap');
+/*Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=La+Belle+Aurore&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;400&display=swap');
+/*Sora*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=La+Belle+Aurore&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;400&family=Sora:wght@100;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Inspiration&family=Inter:wght@300&family=Montserrat:wght@700&family=PT+Mono&family=Roboto:wght@300&family=Shadows+Into+Light&family=Sora:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inspiration&family=Inter:wght@300&family=Montserrat:wght@700&family=PT+Mono&family=Roboto:wght@300&family=Shadows+Into+Light&family=Sora:wght@300;400;600;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fira+Code&family=Inspiration&family=Inter:wght@300&family=Montserrat:wght@700&family=PT+Mono&family=Roboto:wght@300&family=Shadows+Into+Light&family=Sora:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fira+Code&family=Inspiration&family=Inter:wght@300&family=Montserrat:wght@700&family=PT+Mono&family=Roboto:wght@300&family=Shadows+Into+Light&family=Sora:wght@300;400;600;800&display=swap');
+
+
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    font-size: 18px;
+    margin: 1vh 0 2vh 0;
+    text-align: center;
+    text-decoration: none;
+    color: #5dbeff;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: "Fira Code",Poppins ,Arial, Helvetica, sans-serif;
+    font-family: Poppins ,Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+*{
+    font-family: "Open Sans" ,Arial, Helvetica, sans-serif;
+    color: #fafafa;
+}
+
+body{
+    width: 100%;
+    background-image: url("img/fondo.jpg");
+    background-image: url("https://wp.es.aleteia.org/wp-content/uploads/sites/7/2019/10/shutterstock_291965744.jpg?w=620&h=348&crop=1");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;         
+}
+  
+body::-webkit-scrollbar-track {  
+    background: #161325;   
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5dbeff;  
+  background-image: #5dbeff;
+  border-radius: 20px;        
+  border: 3px solid #161325;
+}
+
+.container{
+    width: 45%;
+    margin: 10vh 0;
+    overflow: hidden;
+    padding: 5vh 5vw;
+    position: relative;
+    border-radius: 8px;
+    background: #140e23;
+    box-shadow: 0 0.5rem 2rem 0 rgba(0, 0, 0, 3.37);
+}
+
+.container img{
+    width: 8vw;
+}
+
+.container div:first-child{
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 0 5vh 0;
+    justify-content: center;
+}
+
+.container div:first-child h1{
+    font-family: 'Inspiration', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container div:last-child form{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.container form input{
+    outline: none;
+    padding: 10px;
+    border: none;
+    color: #000000;
+    border-radius: 8px;
+    margin-bottom: 2vh;
+    background: none;
+    border: 1px solid #1DA1F2;
+}
+
+.container form .sumit{
+    font-size: 18px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 2vh;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background: #1DA1F2;
+}
+
+.container form .sumit:hover{
+    background: #1783c7;
+}
+
+.container form h1{
+    font-size: 18px;
+    margin-bottom: 2vh;
+}
+
+
+
+
+
+
+
